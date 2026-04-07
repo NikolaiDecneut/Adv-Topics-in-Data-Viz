@@ -10,7 +10,7 @@ My work combines **spatial thinking**, **data science + analytics**, and **desig
 ## 🧭 What I Do
 
 - **Geographic Data Analysis:** Spatial mapping and geostatistical workflows in ArcGIS Pro and R.  
-- **Data Visualization:** Transforming raw data into engaging visual narratives using `ggplot2`, `Leaflet`, and Tableau.  
+- **Data Visualization:** Transforming raw data into engaging visual narratives using `ggplot2`, `Shiny`, and Tableau.  
 - **Storytelling with Data:** Building accessible, visually clear dashboards and reports that communicate trends and patterns effectively.  
 - **Collaborative Projects:** Working in academic and group environments to create reproducible and transparent research code.
 
