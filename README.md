@@ -18,8 +18,8 @@ My work combines **spatial thinking**, **data science + analytics**, and **desig
 
 ## 🧪 Featured Projects
 
-### ⚽ [U.S. Soccer Referee Advancement Project](https://github.com/NikolaiDecneut/U.S.-Soccer-RAP-Personal-Project)
-A solo analysis that explores trends in U.S. Soccer referee advancement, using R to visualize development pathways and demographic insights.  
+### ⚽ [U.S. Soccer Referee Abuse Prevention project](https://github.com/NikolaiDecneut/U.S.-Soccer-RAP-Personal-Project)
+A solo analysis that explores trends in U.S. Soccer referee abuse and how to prevent it from happening. I will be using R to visualize development how often abuse occurs, the ages and experience of referees that it happens to and tthe type of abuse that happens. This is all in the hope that we can prevent further abuse from happening.  
 **Focus:** EDA, data cleaning, and advanced plot design with `ggplot2` and `Shiny`.
 
 ### 🧓 [Aging Job Prospects — Group Visualization Project](https://github.com/UWB-Adv-Data-Vis-2026-Wi-A/aging-job-prospects-group-1)
