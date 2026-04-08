@@ -20,7 +20,7 @@ My work combines **spatial thinking**, **data science + analytics**, and **desig
 
 ### ⚽ [U.S. Soccer Referee Advancement Project](https://github.com/NikolaiDecneut/U.S.-Soccer-RAP-Personal-Project)
 A solo analysis that explores trends in U.S. Soccer referee advancement, using R to visualize development pathways and demographic insights.  
-**Focus:** EDA, data cleaning, and advanced plot design with `ggplot2` and `plotly`.
+**Focus:** EDA, data cleaning, and advanced plot design with `ggplot2` and `Shiny`.
 
 ### 🧓 [Aging Job Prospects — Group Visualization Project](https://github.com/UWB-Adv-Data-Vis-2026-Wi-A/aging-job-prospects-group-1)
 A collaborative University of Washington project analyzing the relationship between workforce age and employment outcomes.  
@@ -30,8 +30,8 @@ A collaborative University of Washington project analyzing the relationship betw
 
 ## 💡 Tools & Technologies
 
-- **Languages:** R, SQL, Java  
-- **Visualization:** ggplot2, plotly, Tableau, ArcGIS Pro  
+- **Languages:** R, Python, Java  
+- **Visualization:** ggplot2, Shiny, Tableau, and ArcGIS Pro  
 - **Data Science:** dplyr, tidyr, sf (spatial data)  
 - **Version Control:** Git & GitHub  
 - **Workflow:** Reproducible script pipelines and markdown reporting
@@ -40,16 +40,15 @@ A collaborative University of Washington project analyzing the relationship betw
 
 ## 🌍 Beyond the Code
 
-Outside of academics, I'm often **reffing or playing soccer**, analyzing game stats, or experimenting with new data storytelling techniques. I enjoy finding connections between **sports data and human geography**—how location, community, and performance all intersect.
-
+Outside of academics, I'm often **officiating or playing soccer**, analyzing game stats, or playing competitive video games with some of my friends. I love the travel the world and explore how different cultures interact and how people live.
 ---
 
 ## 📫 Let's Connect
 
 - **GitHub:** [github.com/NikolaiDecneut](https://github.com/NikolaiDecneut)  
-- **LinkedIn:** [linkedin.com/in/nikolaidecneut](#) (add once ready)  
-- **Email:** yourname@uw.edu  
-
+- **LinkedIn:** [linkedin.com/in/nikolaidecneut](https://www.linkedin.com/in/nikolai-decneut-26b127390/)
+- **Email:** nikola1@uw.edu  
+- **Email 2:** ndecneut@outlook.com
 ---
 
 > “Data doesn’t speak for itself—it invites us to listen carefully.”
