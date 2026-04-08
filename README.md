@@ -1,5 +1,7 @@
 # 👋 Hi, I'm NikolaÏ Decneut
 
+![Photo of Nikolai]("C:\Users\ndecn\OneDrive\Desktop\nikolai.jpeg")
+
 I'm a **Data Visualization student** at the **University of Washington**, specializing in **Java, R, Tableau, ArcGIS Pro, Statistics and data-driven storytelling**. 
 I’m passionate about turning complex data into meaningful visual insights—whether through interactive dashboards, spatial analysis, or exploratory visual design.
 
