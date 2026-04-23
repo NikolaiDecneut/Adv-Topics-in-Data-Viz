@@ -35,4 +35,14 @@ Please visit my website to view the interactive visualization.
 
 **Assignment2:** [FlourishChart](https://nikolaidecneut.github.io/Adv-Topics-in-Data-Viz/)
 
+---
+
+## 📫 Let's Connect
+
+- **GitHub:** [github.com/NikolaiDecneut](https://github.com/NikolaiDecneut)  
+- **LinkedIn:** [linkedin.com/in/nikolaidecneut](https://www.linkedin.com/in/nikolai-decneut-26b127390/)
+- **Email:** nikola1@uw.edu  
+- **Email 2:** ndecneut@outlook.com
+---
+
 
