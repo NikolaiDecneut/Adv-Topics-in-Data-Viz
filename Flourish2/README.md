@@ -30,5 +30,5 @@ funded more then others creates a level of public visibility that is important f
 ## My Visualization
 
 ### [Created using Flourish]
-<div class="flourish-embed flourish-chart" data-src="visualisation/28639788"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28639788/thumbnail" width="100%" alt="visualization" /></noscript></div>
+<iframe src='https://flo.uri.sh/visualisation/28639788/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
 
