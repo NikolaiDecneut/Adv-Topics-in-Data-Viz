@@ -9,6 +9,8 @@ the Seattle Open Data Portal. The dataset I chose to evaluate was the City of Se
 into what the average hourly wages are of the employees at many of our cities departments. Providing insight into what departments may be 
 funded more then others creates a level of public visibility that is important for the relationship between a government and its constituents.
 
+(This is not an official project of the City of Seattle)
+
 ---
 
 ## Data
