@@ -30,5 +30,9 @@ funded more then others creates a level of public visibility that is important f
 ## My Visualization
 
 ### [Created using Flourish]
-<div class="flourish-embed flourish-chart" data-src="visualisation/28639788"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28639788/thumbnail" width="100%" alt="visualization" /></noscript></div>
+
+Please visit my website to view the interactive visualization.
+
+**Assignment2:** [FlourishChart](https://nikolaidecneut.github.io/Adv-Topics-in-Data-Viz/)
+
 
