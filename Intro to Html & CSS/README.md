@@ -2,7 +2,7 @@
 
 For this assignment, I created a public-facing review of Apex Legends. My review discusses why I enjoy the game, the characters I have been playing, and how advanced movement mechanics like tap strafing and super gliding affect the skill gap.
 
-##HTML/CSS Changes
+## HTML/CSS Changes
 
 - Updated the page title and headings
 - Added multiple paragraphs of review text
