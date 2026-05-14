@@ -1,1 +1,28 @@
-/* TBD*/
+body {
+  font-family: "Source Sans 3", Arial, sans-serif;
+  background-color: #111827;
+  color: white;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #ff4655;
+}
+
+p {
+  font-size: 18px;
+}
+
+#chart {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+svg text {
+  font-family: "Source Sans 3", Arial, sans-serif;
+  font-size: 13px;
+}
