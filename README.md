@@ -8,6 +8,12 @@ I’m passionate about turning complex data into meaningful visual insights—wh
 
 My work combines **spatial thinking**, **data science + analytics**, and **design clarity** to make data intuitive for everyone—from domain experts to newcomers discovering the power of visualization.
 
+## Course Portfolio Website
+
+View the GitHub Pages site here:
+
+[Advanced Topics in Data Visualization Portfolio](https://nikolaidecneut.github.io/Adv-Topics-in-Data-Viz/)
+
 ---
 
 ## 🧭 What I Do
