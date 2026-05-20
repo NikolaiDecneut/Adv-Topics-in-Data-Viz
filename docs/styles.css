@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f4ef;
+  color: #222222;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 56px 24px;
+}
+
+.hero {
+  margin-bottom: 48px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #d8d2c7;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b665f;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+h1 {
+  max-width: 850px;
+  margin: 0 0 18px;
+  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  margin: 0 0 16px;
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  margin: 0 0 12px;
+  font-size: 1.35rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.hero-text {
+  max-width: 760px;
+  font-size: 1.15rem;
+  color: #44403a;
+}
+
+.hero-links,
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+a {
+  color: #1f5f75;
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  color: #123f4f;
+}
+
+.intro,
+.assignments,
+.profile {
+  margin-bottom: 52px;
+}
+
+.intro p,
+.profile p {
+  max-width: 760px;
+  color: #44403a;
+}
+
+.section-heading {
+  margin-bottom: 22px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 360px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #ded8ce;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(40, 37, 29, 0.06);
+}
+
+.card p {
+  color: #4a453f;
+}
+
+.card a {
+  margin-top: auto;
+}
+
+.tag {
+  margin: 0 0 14px;
+  color: #7a5b2e;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.tools {
+  margin-top: 18px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #66615a;
+}
+
+@media (max-width: 850px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: auto;
+  }
+}
