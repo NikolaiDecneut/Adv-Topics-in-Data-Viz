@@ -1,6 +1,10 @@
 # Steam Hardware Brand Trends
 
-![Screenshot of the Steam hardware D3 line chart](C:\Users\ndecn\OneDrive\Desktop\University of Washington\Junior year spring\Adv D/screenshot.png)
+![Screenshot of the Steam hardware D3 line chart](Screenshot.png)
+
+## Project description
+
+This project is a D3 multi-line chart that shows how Steam users' CPU and GPU brand choices have changed over time. The chart compares Intel and AMD CPU share with NVIDIA, AMD, and Intel GPU share among Windows users in the Steam Hardware Survey.
 
 ## Project description
 
