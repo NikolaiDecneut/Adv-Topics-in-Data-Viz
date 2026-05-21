@@ -1,6 +1,6 @@
 # Steam Hardware Brand Trends
 
-![Screenshot of the Steam hardware D3 line chart](images/screenshot.png)
+![Screenshot of the Steam hardware D3 line chart](C:\Users\ndecn\OneDrive\Desktop\University of Washington\Junior year spring\Adv D/screenshot.png)
 
 ## Project description
 
