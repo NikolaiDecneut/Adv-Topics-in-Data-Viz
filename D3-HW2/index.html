@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Steam Hardware Brand Trends</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3:400,600,700">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <main class="page">
+            <section class="intro">
+                <p class="eyebrow">D3 HW2 · Multi-line chart</p>
+
+                <h1>Steam players still overwhelmingly use Intel CPUs and NVIDIA GPUs</h1>
+
+                <p class="dek">
+                    Monthly Steam Hardware Survey data shows how CPU and GPU brand share has changed among Windows users over time.
+                </p>
+            </section>
+
+            <section class="chart-card">
+                <div id="chart"></div>
+
+                <p class="note">
+                    Source: jdegene/steamHWsurvey, based on Steam Hardware & Software Survey data and Internet Archive snapshots.
+                    GPU values are estimated by grouping video card model names by brand.
+                </p>
+            </section>
+        </main>
+
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
