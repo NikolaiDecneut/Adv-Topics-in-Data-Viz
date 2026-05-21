@@ -54,6 +54,7 @@ main.js
 style.css
 steam_brands.csv
 README.md
+Screenshot.png
 ```
 
 ## D3 features used
