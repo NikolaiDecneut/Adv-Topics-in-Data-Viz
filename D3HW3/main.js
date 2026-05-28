@@ -1,6 +1,6 @@
 // Steam Hardware Survey interactive chart
 //
-// Important note:
+// Important notes:
 // If you double-click index.html, browsers usually block d3.csv("steam_brands.csv").
 // To avoid that problem, this page uses a file input + FileReader.
 
