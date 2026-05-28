@@ -1,10 +1,8 @@
 // Steam Hardware Survey interactive chart
-// This version is meant to be easier to read and re-type while learning D3.
 //
 // Important note:
 // If you double-click index.html, browsers usually block d3.csv("steam_brands.csv").
 // To avoid that problem, this page uses a file input + FileReader.
-// You still use the external CSV file, but you choose it manually from the page.
 
 // ---------- Basic chart setup ----------
 
