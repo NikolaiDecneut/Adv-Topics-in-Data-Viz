@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Steam Hardware Survey D3 Chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <h1>Steam Hardware Survey: CPU and GPU Brand Share</h1>
+
+        <p class="description">
+            This chart compares the percent of Steam survey users with different CPU
+            and GPU brands. Upload the CSV first, then use the dropdown and slider to
+            update the chart.
+        </p>
+
+        <section class="controls">
+            <label>
+                CSV file:
+                <input type="file" id="csvFile" accept=".csv">
+            </label>
+
+            <label>
+                Category:
+                <select id="categorySelect" disabled>
+                    <option value="cpu">CPU: Intel vs AMD</option>
+                    <option value="gpu">GPU: Nvidia vs AMD vs Intel</option>
+                </select>
+            </label>
+
+            <label>
+                Start year: <span id="yearLabel">2014</span>
+                <input type="range" id="yearSlider" min="2014" max="2024" value="2014" disabled>
+            </label>
+
+            <button id="resetButton" disabled>Reset</button>
+        </section>
+
+        <p id="status">Choose <strong>steam_brands.csv</strong> to draw the chart.</p>
+
+        <div id="chart"></div>
+
+        <p class="source">
+            Data source: Steam Hardware &amp; Software Survey, Valve Corporation:
+            <a href="https://store.steampowered.com/hwsurvey" target="_blank">
+                https://store.steampowered.com/hwsurvey
+            </a>
+        </p>
+    </main>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- My chart code -->
+    <script src="main.js"></script>
+</body>
+</html>
