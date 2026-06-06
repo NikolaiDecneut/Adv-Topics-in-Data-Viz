@@ -3,7 +3,7 @@
 A narrative-focused D3 (v7) visualization built for the Week 8 extra-credit
 assignment in *Advanced Topics in Data Visualization*.
 
-![Diverging area chart of Intel vs AMD CPU share among Steam gamers, 2014–2026](img/chart_only.png)
+![Diverging area chart of Intel vs AMD CPU share among Steam gamers, 2014–2026](D3HW4/interaction.gif)
 
 ## Visual & brief description
 
@@ -39,15 +39,6 @@ Intel/AMD boundary, and a tooltip with the exact Intel and AMD share for the
 nearest month. This supports a "near view" reading of precise monthly numbers on
 top of the "far view" story told by the overall shape.
 
-**Initial view**
-
-![Initial chart with headline, subhead, and turning-point annotation](img/screenshot_initial.png)
-
-**Hover interaction**
-
-![Hover state showing guideline and a tooltip reading Intel 67.9%, AMD 32.1% in Aug 2022](img/screenshot_hover.png)
-
-![Animated sweep of the hover interaction across the chart](img/interaction.gif)
 
 ## Files
 
