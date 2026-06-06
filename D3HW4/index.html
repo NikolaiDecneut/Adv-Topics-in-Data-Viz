@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Quiet Coup: AMD's Climb in Gaming PCs</title>
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3:wght@400;600;700;900">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        
+        <main class="story">
+
+            <!-- Headline = the argument, not just a label of the data -->
+            <h1 class="headline">For a decade, gamers quietly switched teams</h1>
+
+            <!-- Subhead = the "so what" / narrative through-line -->
+            <p class="subhead">
+                In 2014, four out of five gaming PCs ran an Intel processor.
+                Today it is barely one in two. This is the story of how AMD
+                clawed its way back from near-irrelevance.
+            </p>
+
+            <!-- Dek / standfirst: orients a public audience before the visual -->
+            <p class="dek">
+                Every month, millions of players let Valve quietly catalog the
+                hardware inside their machines through the Steam Hardware
+                Survey. Tracking the share of those PCs running Intel versus
+                AMD processors turns that anonymous census into a 12-year
+                tug-of-war &mdash; one with a clear turning point.
+            </p>
+
+            <!-- The chart and its annotations are injected here by main.js -->
+            <figure id="chart" class="chart-figure"></figure>
+
+            <!-- Methods + source = authority and credibility (Week 8 deck) -->
+            <section class="methods">
+                <h2>How to read this</h2>
+                <p>
+                    The band is split top-to-bottom into the share of surveyed
+                    gaming PCs running each brand's CPU, so the two shares
+                    always add to 100%. The white dividing line is the front of
+                    the battle: as it slides down, AMD (bottom) is taking ground
+                    from Intel (top). Hover anywhere on the chart to read the
+                    exact split for that month.
+                </p>
+                <p class="source">
+                    <strong>Data:</strong> Valve Corporation, &ldquo;Steam Hardware
+                    &amp; Software Survey&rdquo; (CPU vendor share, Jan 2014&ndash;Apr 2026),
+                    <a href="https://store.steampowered.com/hwsurvey/" target="_blank" rel="noopener">store.steampowered.com/hwsurvey</a>.
+                    Monthly Intel/AMD shares were re-normalized to sum to 100%
+                    (a small &ldquo;other&rdquo; sliver was dropped). Cleaned data:
+                    <code>cpu_market_share.csv</code>.
+                </p>
+            </section>
+        </main>
+
+        <!-- D3 v7 loaded from the official CDN, per our class setup -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+:root {
+  --ink:        #1d2433;   /* near-black body text */
+  --muted:      #6b7280;   /* secondary / caption text */
+  --intel:      #0a6cb8;
+  --amd:        #d62828;
+  --rule:       #e5e7eb;
+  --page-bg:    #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--page-bg);
+  color: var(--ink);
+  font-family: "Source Sans 3", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Story column: narrow measure for comfortable readin */
+.story {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 24px 80px;
+}
+
+/* Headline carries the argument */
+.headline {
+  font-size: 2.6rem;
+  font-weight: 900;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin: 0 0 14px;
+}
+
+/* Subhead = the "so what" */
+.subhead {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 18px;
+}
+
+/* Dek / standfirst */
+.dek {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin: 0 0 28px;
+  max-width: 680px;
+}
+
+/* Chart figure*/
+.chart-figure {
+  position: relative;     
+  margin: 8px 0 28px;
+}
+
+svg { width: 100%; height: auto; display: block; }
+
+/* Subtle outline on each area so the colors don't bleed into the page */
+.area-intel, .area-amd { stroke: rgba(255,255,255,0.0); }
+
+
+.frontline {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+
+
+.axis text { font-size: 12px; fill: var(--muted); }
+.axis path, .axis line { stroke: #cbd2dc; }
+.y-axis path { display: none; }   /* drop the vertical domain line */
+
+/* Direct brand labels (replace a legend */
+.brand-label { font-size: 16px; font-weight: 800; }
+.brand-intel { fill: var(--intel); }
+.brand-amd   { fill: var(--amd); }
+.brand-sub   { font-size: 13px; font-weight: 600; fill: var(--muted); }
+
+/* Turning-point annotation (sits on the blue Intel band)*/
+.annotation line { stroke: #ffffff; stroke-width: 1; opacity: 0.85; }
+.annotation circle { fill: #fff; stroke: var(--ink); stroke-width: 1.5; }
+.anno-title  { font-size: 13px; font-weight: 700; fill: #ffffff; }
+.anno-detail { font-size: 12.5px; fill: rgba(255,255,255,0.85); }
+
+/* Hover interaction */
+.focus-line { stroke: var(--ink); stroke-width: 1; stroke-dasharray: 3 3; }
+.focus-dot  { fill: #fff; stroke: var(--ink); stroke-width: 2; }
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(29,36,51,0.95);
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  line-height: 1.4;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+  transition: opacity 0.12s ease;
+  white-space: nowrap;
+}
+.tooltip .tt-date { font-weight: 700; margin-bottom: 4px; }
+.tooltip .tt-row  { display: flex; align-items: center; gap: 6px; }
+.tooltip .sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+
+/*Methods & source */
+.methods {
+  border-top: 1px solid var(--rule);
+  padding-top: 22px;
+  margin-top: 8px;
+}
+.methods h2 { font-size: 1.1rem; margin: 0 0 8px; }
+.methods p  { font-size: 0.95rem; color: var(--muted); margin: 0 0 12px; }
+.source { font-size: 0.85rem; }
+.source a { color: var(--intel); }
+.source code { background: #f3f4f6; padding: 1px 5px; border-radius: 4px; font-size: 0.85em; }
+
+/*Responsive*/
+@media (max-width: 600px) {
+  .headline { font-size: 2rem; }
+  .subhead  { font-size: 1.15rem; }
+}
