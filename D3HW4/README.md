@@ -3,7 +3,7 @@
 A narrative-focused D3 (v7) visualization built for the Week 8 extra-credit
 assignment in *Advanced Topics in Data Visualization*.
 
-![Diverging area chart of Intel vs AMD CPU share among Steam gamers, 2014–2026](D3HW4/interaction.gif)
+![Diverging area chart of Intel vs AMD CPU share among Steam gamers, 2014–2026](/interaction.gif)
 
 ## Visual & brief description
 
